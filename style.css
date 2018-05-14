@@ -1,0 +1,74 @@
+
+p, a, h1, h3 {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+body {
+    background-image: url(Web-Project-Formula-One-Materiale/Design/site-background.jpg);
+    margin: 0;
+}
+
+nav {
+    /* background-color: black; */
+    /* display: flex;
+    justify-content: space-between;
+    margin: 30px; */
+
+    /* position: absolute; */
+    /* left: 50px; */
+
+    background-color: black;
+    margin: 0 50px 0 50px;
+    opacity: 0.8;
+}
+
+header {
+    /* display: flex; */
+    position: relative;
+}
+
+header img{
+    width: 9%;
+    position: absolute;
+    left: 30px;
+    top: -50px;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 60px;
+    margin-left: 130px;
+}
+
+nav ul li {
+    margin: 25px;
+}
+
+nav ul li:hover{
+    opacity: 1;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul #loginContainer {
+    background-color: red;
+    align-self: flex-end;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main #midStripes {
+    background-image: url(Web-Project-Formula-One-Materiale/Design/stribes.png);
+    background-repeat: repeat-x;
+}
