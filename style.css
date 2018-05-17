@@ -2,6 +2,7 @@
 p, a, h1, h3 {
     color: white;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -128,3 +129,52 @@ section {
     width: 50%;
     margin: 0 auto;
 }
+
+.sectionTop {
+    display: flex;
+    align-items: center;
+}
+
+.sectionContent {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.sectionContent img {
+    padding: 10px;
+    width: 60px;
+}
+
+.sectionContent .contentText p:last-child, .trackContainer p{
+    color: grey;
+}
+
+.sectionContent .blueLine {
+    width: 10px;
+    height: 100%;
+    background-color: aqua;
+}
+
+.trackContainer {
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.trackContainer h3 {
+    margin: 8px;
+}
+
+.trackContainer p {
+    margin: 4px;
+}
+
+/* .trackContainer img {
+    width: 100%;
+} */
